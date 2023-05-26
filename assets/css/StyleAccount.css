@@ -1,0 +1,106 @@
+﻿.container_content{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo{
+    width: 160px;
+    height: 160px;
+    background: url("../images/TeaCornerDark.png") center no-repeat;
+    background-size: cover;
+
+    display: inline-block;
+    margin: 20px auto 0 auto;
+}
+
+.window{
+    display: inline-block;
+    margin: 20px auto;
+
+    width: 600px;
+    height: 530px;
+    background-color: #e8f5e6;
+
+    border-radius: 8px;
+    border: 1.3px solid #808080;
+    padding: 1% 5%;
+}
+
+.window_reg{
+    display: inline-block;
+    margin: 20px auto;
+
+    width: 600px;
+    height: 600px;
+    background-color: #e8f5e6;
+
+    border-radius: 8px;
+    border: 1.3px solid #808080;
+    padding: 1% 5%;
+}
+
+.reg_head{
+    font-size: 34px;
+    text-align: center;
+}
+
+.field_info{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.field{
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+    padding: 1.5%;
+
+    border: 1px solid #000;
+
+    outline: none;
+}
+
+.field:focus{
+    filter: drop-shadow(0 0 10px #ded26a);
+}
+
+.reg_new{
+    padding: 1.5%;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+
+    border: 1px solid #000;
+    background-color: #ba7b7b;
+}
+
+.reg_new:hover{
+    background-color: #ad5858;
+    cursor: pointer;
+}
+
+.continue{
+    margin: 10% 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 1.5%;
+
+    border: 1px solid #000;
+    background-color: #ded26a;
+}
+
+.continue:hover{
+    background-color: #d4c755;
+    cursor: pointer;
+}
+
+.continue:active{
+    filter: drop-shadow(0 0 10px #ded26a);
+}
